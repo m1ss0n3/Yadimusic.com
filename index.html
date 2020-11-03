@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+ <head> 
+  <title>Simple music player</title> 
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+  <link rel="stylesheet" href="assest/style.css">
+ </head> 
+ <body> 
+  <div id="drop" class="drop"> 
+   <div onclick="closem()" class="crossm">
+     ╳ Close 
+   </div> 
+   <div class="mtext">
+     The 
+    <a href="https://wa.me/+6285314004389"><b>Yadi x Ara</b></a>
+    <span class="heart">♥</span>work 
+    <br> 
+    <b>Top in the list</b>
+    <br> 1. Lathi
+    <br> 2. Best Friends
+    <br> 3. Girls Like You
+    <br> 4. Love Story
+    <br> 5. Senorita
+    <br> 6. Dance Monkey
+    <br> 7. Los Dol
+    <br> 8. Perlahan
+    <br> 9. Odading Mang Oleh
+    <br> 10. Fire Drill
+    <br> 
+   </div> 
+  </div> 
+  <nav id="nav"> 
+   <div onclick="openm()" class="menu icon"> 
+    <i class="material-icons">menu</i> 
+   </div> 
+   <div onclick="opensearch()" class="search icon"> 
+    <i class="material-icons">search</i> 
+   </div> 
+  </nav> 
+  <div id="sbar" class="searchbar"> 
+   <div onclick="closesearch()" class="back icon"> 
+    <i class="material-icons">arrow_back</i> 
+   </div> 
+   <input oninput="search()" placeholder="Find a music?" id="inp"> 
+  </div> 
+  <div class="banner"> 
+   <div id="text" class="text"> 
+   </div> 
+  </div> 
+  <div id="container" class="container"> 
+  </div> 
+  <div class="con"> 
+   <div id="loadmusic" class="loadingmusic"> 
+    <div class="loader"> 
+     <div></div> 
+     <div></div> 
+     <div></div> 
+     <div></div> 
+     <div></div> 
+     <div></div> 
+     <div></div> 
+     <div></div> 
+    </div> 
+   </div> 
+   <div id="pre" class="preloader"> 
+    <div class="loaders"> 
+    </div> 
+   </div> 
+   <script src="assest/script.js">
+
+
+
+
+</script>     
+  </div>
+ </body>
+</html>
